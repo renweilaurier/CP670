@@ -3,4 +3,10 @@
     <string name="app_name">DevoirsAndroid</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">Je suis un bouton</string>
+    <string name="Login">Connexion</string>
+    <string name="LoginName">Identifiant</string>
+    <string name="Password">Passe</string>
+    <string name="RadioButton">BoutonRadio</string>
+    <string name="CheckBox">CaseÀCocher</string>
+    <string name="SwitchText">Qu\'est-ce que cela fait?</string>
 </resources>
