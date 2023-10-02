@@ -9,4 +9,11 @@
     <string name="RadioButton">BoutonRadio</string>
     <string name="CheckBox">CaseÀCocher</string>
     <string name="SwitchText">Qu\'est-ce que cela fait?</string>
+    <string name="InvalidEmail">Adresse e-mail invalide</string>
+    <string name="BlankPassword">Le mot de passe ne peut pas être vide</string>
+    <string name="DialogMessage">CaseÀCocher est cliquée.</string>
+    <string name="DialogTitle">Message</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Annuler</string>
+    <string name="MyResponse">Voici ma réponse</string>
 </resources>

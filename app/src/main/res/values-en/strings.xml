@@ -9,4 +9,11 @@
     <string name="RadioButton">RadioButton</string>
     <string name="CheckBox">CheckBox</string>
     <string name="SwitchText">What does this do?</string>
+    <string name="InvalidEmail">Invalid email address</string>
+    <string name="BlankPassword">Password can\'t be blank</string>
+    <string name="DialogMessage">Checkbox is clicked.</string>
+    <string name="DialogTitle">Message</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="MyResponse">Here is my response</string>
 </resources>
