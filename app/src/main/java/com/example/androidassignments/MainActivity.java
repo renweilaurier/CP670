@@ -12,19 +12,31 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
     private Button button;
+    private Button startChatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("MainActivity", "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, 10);
+            }
+        });
+        startChatButton = findViewById(R.id.buttonStartChat);
+        startChatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("MainActivity", "User clicked Start Chat");
+                Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(intent);
             }
         });
     }

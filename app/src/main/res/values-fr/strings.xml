@@ -16,4 +16,8 @@
     <string name="Ok">OK</string>
     <string name="Cancel">Annuler</string>
     <string name="MyResponse">Voici ma réponse</string>
+    <string name="EmptyMessage">Veuillez saisir un message</string>
+    <string name="InputHint">Saisissez votre message ici</string>
+    <string name="Send">Envoyer</string>
+    <string name="StartChat">Démarrer la discussion</string>
 </resources>

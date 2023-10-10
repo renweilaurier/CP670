@@ -16,4 +16,8 @@
     <string name="Ok">OK</string>
     <string name="Cancel">Cancel</string>
     <string name="MyResponse">Here is my response</string>
+    <string name="EmptyMessage">Input your message here</string>
+    <string name="InputHint">Input your message here</string>
+    <string name="Send">Send</string>
+    <string name="StartChat">Start Chat</string>
 </resources>
