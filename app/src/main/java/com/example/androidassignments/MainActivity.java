@@ -11,10 +11,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.assignment2.TestToolbar;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
     private Button startChatButton;
+    private Button testToolbarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.i("MainActivity", "User clicked Start Chat");
                 Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(intent);
+            }
+        });
+        testToolbarButton = findViewById(R.id.buttonTestToolbar);
+        testToolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("MainActivity", "User clicked Test Toolbar");
+                Intent intent = new Intent(MainActivity.this, TestToolbar.class);
                 startActivity(intent);
             }
         });

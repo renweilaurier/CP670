@@ -12,35 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments"
         tools:targetApi="31">
-
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+        <activity
+            android:name="com.example.assignment2.TestToolbar"
+            android:exported="false"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/Theme.AndroidAssignments" />
 
         <activity
             android:name=".ChatWindow"
-            android:label="ChatWindow"
             android:exported="false"
+            android:label="ChatWindow"
             android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".ListItemsActivity"
-            android:label="ListItemsActivity"
             android:exported="false"
+            android:label="ListItemsActivity"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="LoginActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
     </application>
 
     <uses-feature

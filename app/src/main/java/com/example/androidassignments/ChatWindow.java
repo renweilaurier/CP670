@@ -89,43 +89,43 @@ public class ChatWindow extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        Log.i("LoginActivity", "onResume");
+        Log.i("ChatWindow", "onResume");
         super.onResume();
     }
 
     @Override
     protected void onStart() {
-        Log.i("LoginActivity", "onCreate");
+        Log.i("ChatWindow", "onCreate");
         super.onStart();
     }
 
     @Override
     protected void onPause() {
-        Log.i("LoginActivity", "onCreate");
+        Log.i("ChatWindow", "onCreate");
         super.onPause();
     }
 
     @Override
     protected void onStop() {
-        Log.i("LoginActivity", "onStop");
+        Log.i("ChatWindow", "onStop");
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        Log.i("LoginActivity", "onDestroy");
+        Log.i("ChatWindow", "onDestroy");
         super.onDestroy();
     }
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
-        Log.i("LoginActivity", "onSaveInstanceState");
+        Log.i("ChatWindow", "onSaveInstanceState");
         super.onSaveInstanceState(savedInstanceState);
     }
 
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
-        Log.i("LoginActivity", "onRestoreInstanceState");
+        Log.i("ChatWindow", "onRestoreInstanceState");
         super.onRestoreInstanceState(savedInstanceState);
     }
 }
