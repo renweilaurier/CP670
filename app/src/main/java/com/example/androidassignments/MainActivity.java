@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button;
     private Button startChatButton;
     private Button testToolbarButton;
+    private Button startWeatherButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.i("MainActivity", "User clicked Test Toolbar");
                 Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(intent);
+            }
+        });
+        startWeatherButton = findViewById(R.id.buttonStartWeather);
+        startWeatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("MainActivity", "User clicked WeatherForecast");
+                Intent intent = new Intent(MainActivity.this, WeatherForecast.class);
                 startActivity(intent);
             }
         });
